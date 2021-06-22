@@ -19,6 +19,10 @@ import java.util.Scanner;
   	    double b2=sc.nextDouble();
   	  double length2 = Math.sqrt(Math.pow((a2-a1),2)+Math.pow((b2-b1),2));
 	    System.out.println(" Length of line2 is = "+length2);
+	    if (length2 == length1)
+    	System.out.println("Two Lines are Equal");
+       else
+        System.out.println("Two Lines are Not Equal");
 	}
 
 }
