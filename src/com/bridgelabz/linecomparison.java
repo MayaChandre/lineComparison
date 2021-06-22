@@ -23,6 +23,10 @@ import java.util.Scanner;
     	System.out.println("Two Lines are Equal");
        else
         System.out.println("Two Lines are Not Equal");
-	}
+	    if (length1 > length2)
+	        System.out.println("Length of Line 1 is Greater than Length of Line 2");
+    else if (length1 < length2)
+             System.out.println("Length of Line 1 is Smaller than Length of Line 2");
+}
 
 }
